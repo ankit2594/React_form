@@ -1,0 +1,39 @@
+.Person
+{
+    border: 1px solid #eee;
+    box-shadow:0 2px 2px #ccc;
+    padding:15px;
+    margin-bottom: 50px;
+}
+
+.left_block
+{
+    /*border-right: 5px solid #eee;
+    box-shadow:0 5px 5px #ccc;*/
+    width: 45%;
+    margin-left: 50px;
+    padding:30px;
+    position:relative;
+    display:inline-block;
+    float: left;
+}
+.right_block
+{
+    border: 1px solid #eee;
+    box-shadow:0 2px 2px #ccc;
+    width: 45%;
+    margin-left: 50px;
+    padding:70px 30px 20px 30px;
+    display:inline-block;
+    position:relative;
+    top:30px;
+    cursor: not-allowed;
+}
+h1
+{
+   text-align: center;
+}
+label,button
+{
+    cursor:pointer;
+}
